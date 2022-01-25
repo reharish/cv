@@ -1,3 +1,5 @@
+/* Used for delay Redirect and also show timer on screen */
+
 function delayRedirect(){
     document.getElementById('delayMsg').innerHTML = '<h4>Redirect in <span id="countDown">10</span> seconds..</h4>';
     var count = 10;
