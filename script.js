@@ -1,7 +1,7 @@
 /* Used for delay Redirect and also show timer on screen */
 
 function delayRedirect(){
-    document.getElementById('delayMsg').innerHTML = '<h4>Portfolio Loading .... <span id="countDown">10</span> seconds..</h4>';
+    document.getElementById('delayMsg').innerHTML = '<h4>Portfolio Loading .... <span id="countDown">9</span> seconds..</h4>';
     var count = 8;
     setInterval(function(){
         count--;
