@@ -1,7 +1,7 @@
-/* Used for delay Redirect and also show timer on screen */
+/* Delaying Loading screen to show Rick Roll */
 
 function delayRedirect(){
-    document.getElementById('delayMsg').innerHTML = '<h4>Portfolio Loading .... <span id="countDown">9</span> seconds..</h4>';
+    document.getElementById('delayMsg').innerHTML = '<h4>Loading Portfolio in <span id="countDown">9</span> seconds..</h4>';
     var count = 8;
     setInterval(function(){
         count--;
